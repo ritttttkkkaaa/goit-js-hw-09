@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -15,4 +16,20 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+.timer {
+  display: flex;
+  margin: 30px 20px;
+}
+
+.field {
+  background-color: #bd92b7;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  color: antiquewhite;
+  display: grid;
+  text-align: center;
+  margin-right: 15px;
 }
